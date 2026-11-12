@@ -10,7 +10,7 @@ const Faculty = () => {
   const faculties = [
     {
       id: 1,
-      name: "Abhinav Anand",
+      name: "Mr. Abhinav Anand",
       designation: "Principal",
       degrees: "B.Pharma, D.Pharma",
       experience: "12 Years",
@@ -18,7 +18,7 @@ const Faculty = () => {
     },
     {
       id: 2,
-      name: "Vibuti Patel",
+      name: "Mr. Vibhuti Patel",
       designation: "Head of Department",
       degrees: "B.Pharma",
       experience: "8 Years",
@@ -34,7 +34,7 @@ const Faculty = () => {
     },
     {
       id: 4,
-      name: "Rajesh Kr. Thakur",
+      name: "Mr. Rajesh Kr. Thakur",
       designation: "Lecturer",
       degrees: "B.Pharma",
       experience: "5 Years",
