@@ -6,6 +6,7 @@ import AdminLogin from "./admin/AdminLogin";
 import AdminRegister from "./admin/AdminRegister";
 import Dashboard from "./admin/Dashboard";
 import ForgotPassword from "./admin/ForgotPassword";
+import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
 import Admission from "./pages/Admission";
 import Contact from "./pages/Contact";
@@ -23,6 +24,7 @@ import Notices from "./pages/Notices";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
 
