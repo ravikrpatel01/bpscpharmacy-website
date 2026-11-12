@@ -6,14 +6,14 @@ const HeroSection = () => {
     <section className="relative min-h-[84vh] flex items-center overflow-hidden">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center scale-100"
         style={{
-          backgroundImage: "url('/images/hero-bg.jpg')",
+          backgroundImage: "url('/hero_img.jpeg')",
         }}
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-slate-900" />
+      <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-2 lg:px-8 w-full">
@@ -27,11 +27,11 @@ const HeroSection = () => {
           {/* Heading */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-4 leading-tight">
             Shape Your Future With
-            <span className="block text-blue-400">D.Pharma Education</span>
+            <span className="block text-emerald-400">D.Pharma Education</span>
           </h1>
 
           {/* Description */}
-          <p className="text-lg md:text-xl text-slate-300 mt-4 max-w-3xl leading-8">
+          <p className="text-lg md:text-xl text-white mt-4 max-w-3xl leading-8">
             Join{" "}
             <span className="text-yellow-400 font-bold">
               Baijnath Prasad Snehi College of Pharmacy
@@ -62,12 +62,12 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
             <div>
-              <h3 className="text-4xl font-bold text-white">10+</h3>
+              <h3 className="text-4xl font-bold text-white">5+</h3>
               <p className="text-white mt-2">Years Experience</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-white">500+</h3>
+              <h3 className="text-4xl font-bold text-white">200+</h3>
               <p className="text-white mt-2">Students</p>
             </div>
 

@@ -7,18 +7,20 @@ import TopBar from "../components/TopBar";
 
 const Gallery = () => {
   const galleryImages = [
-    "/images/gallery/gallery-1.jpg",
-    "/images/gallery/gallery-2.jpg",
-    "/images/gallery/gallery-3.jpg",
-    "/images/gallery/gallery-4.jpg",
-    "/images/gallery/gallery-5.jpg",
-    "/images/gallery/gallery-6.jpg",
-    "/images/gallery/gallery-7.jpg",
-    "/images/gallery/gallery-8.jpg",
-    "/images/gallery/gallery-9.jpg",
-    "/images/gallery/gallery-10.jpg",
-    "/images/gallery/gallery-11.jpg",
-    "/images/gallery/gallery-12.jpg",
+    "/STUDENT1.jpeg",
+    "/STUDENT2.jpeg",
+    "/STUDENT3.jpeg",
+    "/STUDENT4.jpeg",
+    "/STUDENT5.jpeg",
+    "/STUDENT7.jpeg",
+    "/pharma1.jpeg",
+    "/pharma3.jpeg",
+    "/pharma4.jpeg",
+    "/hero_img.jpeg",
+    "/pharma5.jpeg",
+    "/pharma6.jpeg",
+    "/pharma7.jpeg",
+    "/students.jpeg",
   ];
 
   return (

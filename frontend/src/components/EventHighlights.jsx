@@ -1,25 +1,24 @@
-import { Link } from "react-router-dom";
-import { FaArrowRight, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const EventHighlights = () => {
   const events = [
     {
       id: 1,
-      title: "Orientation Program 2026",
+      title: "World Pharmacist Day 2026",
       description:
-        "Welcome session for newly admitted D.Pharma students with faculty interaction.",
-      date: "20 July 2026",
+        "Community healthcare awareness program organized by pharmacy students.",
+      date: "25 September 2026",
       location: "College Auditorium",
-      image: "/images/events/event-1.jpg",
+      image: "/pharma1.jpeg",
     },
     {
       id: 2,
       title: "Health Awareness Camp",
       description:
         "Community healthcare awareness program organized by pharmacy students.",
-      date: "10 August 2026",
-      location: "Patna",
-      image: "/images/events/event-2.jpg",
+      date: "16-25 November 2026",
+      location: "Classroom",
+      image: "/pharma2.jpeg",
     },
     {
       id: 3,
@@ -52,13 +51,13 @@ const EventHighlights = () => {
             </p>
           </div>
 
-          <Link
+          {/* <Link
             to="/events"
             className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700"
           >
             View All Events
             <FaArrowRight />
-          </Link>
+          </Link> */}
         </div>
 
         {/* Events Grid */}
@@ -97,13 +96,13 @@ const EventHighlights = () => {
                   <span>{event.location}</span>
                 </div>
 
-                <Link
+                {/* <Link
                   to={`/events/${event.id}`}
                   className="inline-flex items-center gap-2 mt-6 text-blue-600 font-medium hover:text-blue-700"
                 >
                   Read More
                   <FaArrowRight className="text-sm" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}

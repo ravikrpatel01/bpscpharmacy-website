@@ -8,7 +8,7 @@ const PrincipalMessage = () => {
           {/* Principal Image */}
           <div className="relative">
             <img
-              src="/images/principal.jpg"
+              src="/principal.png"
               alt="Principal"
               className="w-full max-w-md mx-auto rounded-3xl shadow-xl object-cover"
             />
@@ -52,7 +52,7 @@ const PrincipalMessage = () => {
             {/* Principal Details */}
             <div className="mt-8 border-l-4 border-blue-600 pl-5">
               <h3 className="text-xl font-bold text-slate-800">
-                Dr. Principal Name
+                Abhinav Anand
               </h3>
 
               <p className="text-blue-600 font-medium mt-1">Principal</p>

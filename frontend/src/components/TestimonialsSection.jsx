@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
       id: 1,
       name: "Rahul Kumar",
       role: "D.Pharma Student",
-      image: "/images/student1.jpg",
+      image: "/user.jpg",
       review:
         "The college provides excellent laboratory facilities and supportive faculty members. The practical exposure helped me gain confidence in pharmaceutical studies.",
     },
@@ -14,7 +14,7 @@ const TestimonialsSection = () => {
       id: 2,
       name: "Priya Singh",
       role: "Alumni",
-      image: "/images/student2.jpg",
+      image: "/user.jpg",
       review:
         "The learning environment is excellent. Faculty guidance and practical training prepared me for my professional career in healthcare.",
     },
@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: "Amit Kumar",
       role: "D.Pharma Graduate",
-      image: "/images/student3.jpg",
+      image: "/user.jpg",
       review:
         "Modern infrastructure, experienced teachers, and industry-oriented education make this college a great choice for pharmacy students.",
     },

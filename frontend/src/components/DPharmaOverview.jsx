@@ -65,7 +65,7 @@ const DPharmaOverview = () => {
           {/* Right Image */}
           <div className="relative">
             <img
-              src="/images/dpharma-students.jpg"
+              src="/students.jpeg"
               alt="D Pharma Students"
               className="w-full h-125 object-cover rounded-3xl shadow-lg"
             />

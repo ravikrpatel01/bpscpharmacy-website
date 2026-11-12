@@ -9,13 +9,13 @@ const AboutPreview = () => {
           {/* Image Section */}
           <div className="relative">
             <img
-              src="/college-building.jpg"
+              src="/college_building.jpeg"
               alt="College Building"
-              className="w-full h-112.5 object-cover rounded-3xl shadow-lg"
+              className="w-full h-150 rounded-3xl shadow-lg border-3 border-red-700"
             />
 
             <div className="absolute bottom-6 left-6 bg-blue-600 text-white px-6 py-4 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold">10+</h3>
+              <h3 className="text-2xl font-bold">5+</h3>
               <p className="text-sm">Years of Excellence</p>
             </div>
           </div>

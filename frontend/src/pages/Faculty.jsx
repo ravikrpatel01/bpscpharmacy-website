@@ -1,5 +1,3 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import ContactPreview from "../components/ContactPreview";
 import DepartmentSection from "../components/DepartmentSection";
 import FacultyGrid from "../components/FacultyGrid";
@@ -9,6 +7,41 @@ import PageBanner from "../components/PageBanner";
 import TopBar from "../components/TopBar";
 
 const Faculty = () => {
+  const faculties = [
+    {
+      id: 1,
+      name: "Abhinav Anand",
+      designation: "Principal",
+      degrees: "B.Pharma, D.Pharma",
+      experience: "12 Years",
+      image_path: "/principal.png",
+    },
+    {
+      id: 2,
+      name: "Vibuti Patel",
+      designation: "Head of Department",
+      degrees: "B.Pharma",
+      experience: "8 Years",
+      image_path: "/hod.png",
+    },
+    {
+      id: 3,
+      name: "Mr. Amit Thakur",
+      designation: "Lecturer",
+      degrees: "B. Pharma",
+      experience: "6 Years",
+      image_path: "/amit.png",
+    },
+    {
+      id: 4,
+      name: "Rajesh Kr. Thakur",
+      designation: "Lecturer",
+      degrees: "B.Pharma",
+      experience: "5 Years",
+      image_path: "/rajesh.jpeg",
+    },
+  ];
+  /*
   const [faculties, setFaculties] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -28,6 +61,7 @@ const Faculty = () => {
 
     fetchFaculties();
   }, []);
+  */
 
   return (
     <>

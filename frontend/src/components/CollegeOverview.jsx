@@ -1,4 +1,4 @@
-import { FaGraduationCap, FaFlask, FaUsers } from "react-icons/fa";
+import { FaFlask, FaGraduationCap, FaUsers } from "react-icons/fa";
 
 const CollegeOverview = () => {
   return (
@@ -8,9 +8,9 @@ const CollegeOverview = () => {
           {/* Image */}
           <div>
             <img
-              src="/images/college-building.jpg"
+              src="/college_building.jpeg"
               alt="College Building"
-              className="w-full rounded-3xl shadow-lg"
+              className="w-full h-150 rounded-3xl shadow-lg"
             />
           </div>
 
@@ -41,7 +41,7 @@ const CollegeOverview = () => {
             <div className="grid sm:grid-cols-3 gap-4 mt-8">
               <div className="bg-slate-50 p-5 rounded-2xl text-center">
                 <FaGraduationCap className="mx-auto text-3xl text-blue-600" />
-                <h3 className="text-2xl font-bold mt-3">500+</h3>
+                <h3 className="text-2xl font-bold mt-3">200+</h3>
                 <p className="text-slate-600 text-sm">Students</p>
               </div>
 
