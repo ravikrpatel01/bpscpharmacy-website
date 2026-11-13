@@ -1,3 +1,4 @@
+import { BsEmojiHeartEyesFill } from "react-icons/bs";
 import {
   FaFacebookF,
   FaInstagram,
@@ -14,9 +15,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* College Info */}
           <div>
-            <h2 className="text-xl font-bold text-white mb-4">
-              Baijnath Prasad Snehi College of Pharmacy
-            </h2>
+            <div className="flex gap-2">
+              <img
+                src="/college_logo.png"
+                className="w-14 h-14"
+                alt="college logo"
+              />
+              <h2 className="text-xl font-bold text-white mb-4">
+                Baijnath Prasad Snehi <br />{" "}
+                <span className="text-lg text-gray-500">
+                  College of Pharmacy
+                </span>
+              </h2>
+            </div>
 
             <p className="text-sm leading-6">
               Providing quality pharmaceutical education with modern
@@ -59,6 +70,11 @@ const Footer = () => {
               <li>
                 <a href="/admission" className="hover:text-blue-400 transition">
                   Admission
+                </a>
+              </li>
+              <li>
+                <a href="/gallery" className="hover:text-blue-400 transition">
+                  Gallery
                 </a>
               </li>
             </ul>
@@ -130,9 +146,15 @@ const Footer = () => {
             Pharmacy. All Rights Reserved.
           </p>
 
-          <p className="text-sm text-gray-400">
-            Developed by{" "}
-            <span className="font-medium">RAVI KUMAR PATEL 🤍</span>
+          <p className="text-sm gap-1 flex text-gray-400">
+            Designed & Developed By{" "}
+            <span className="font-medium gap-1 flex items-center">
+              RAVI KUMAR PATEL{" "}
+              <BsEmojiHeartEyesFill
+                className="text-yellow-300 bg-red-600 rounded-full"
+                size={16}
+              />
+            </span>
           </p>
         </div>
       </div>
