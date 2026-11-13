@@ -29,24 +29,24 @@ const ContactInfo = () => {
 
       {/* Address */}
       <div className="flex items-start gap-4 bg-white border border-slate-200 p-5 rounded-2xl shadow-sm">
-        <div className="h-12 w-12 rounded-xl bg-blue-100 flex items-center justify-center">
-          <FaMapMarkerAlt className="text-blue-600 text-lg" />
+        <div className="h-12 w-12 border border-blue-300 rounded-xl bg-blue-100 flex items-center justify-center">
+          <FaMapMarkerAlt size={25} className="text-blue-600 text-lg" />
         </div>
 
         <div>
           <h3 className="font-semibold text-slate-800">College Address</h3>
 
           <p className="text-slate-600 mt-1">
-            Baijnath Prasad Snehi College of Pharmacy, Domchanch, Koderma,
-            Jharkhand - 825418
+            Baijnath Prasad Snehi College of Pharmacy, Domchanch <br />
+            <span>Koderma, Jharkhand - 825418</span>
           </p>
         </div>
       </div>
 
       {/* Phone */}
       <div className="flex items-start gap-4 bg-white border border-slate-200 p-5 rounded-2xl shadow-sm">
-        <div className="h-12 w-12 rounded-xl bg-green-100 flex items-center justify-center">
-          <FaPhoneAlt className="text-green-600 text-lg" />
+        <div className="h-12 w-12 border border-green-300 rounded-xl bg-green-100 flex items-center justify-center">
+          <FaPhoneAlt size={25} className="text-green-600 text-lg" />
         </div>
 
         <div>
@@ -58,21 +58,21 @@ const ContactInfo = () => {
 
       {/* Email */}
       <div className="flex items-start gap-4 bg-white border border-slate-200 p-5 rounded-2xl shadow-sm">
-        <div className="h-12 w-12 rounded-xl bg-red-100 flex items-center justify-center">
-          <MdEmail className="text-red-600 text-xl" />
+        <div className="h-12 w-12 border border-red-300 rounded-xl bg-red-100 flex items-center justify-center">
+          <MdEmail size={25} className="text-red-600 text-xl" />
         </div>
 
         <div>
           <h3 className="font-semibold text-slate-800">Email Address</h3>
 
-          <p className="text-slate-600 mt-1">info@bpsnehicollege.com</p>
+          <p className="text-slate-600 mt-1">vibhuti.bpspc@gmail.com</p>
         </div>
       </div>
 
       {/* Timing */}
       <div className="flex items-start gap-4 bg-white border border-slate-200 p-5 rounded-2xl shadow-sm">
-        <div className="h-12 w-12 rounded-xl bg-yellow-100 flex items-center justify-center">
-          <IoTime className="text-yellow-600 text-xl" />
+        <div className="h-12 w-12 border border-yellow-300 rounded-xl bg-yellow-100 flex items-center justify-center">
+          <IoTime size={25} className="text-yellow-600 text-xl" />
         </div>
 
         <div>
@@ -80,7 +80,7 @@ const ContactInfo = () => {
 
           <p className="text-slate-600 mt-1">Monday - Saturday</p>
 
-          <p className="text-slate-600">09:00 AM - 04:00 PM</p>
+          <p className="text-slate-600">10:00 AM - 04:00 PM</p>
         </div>
       </div>
 

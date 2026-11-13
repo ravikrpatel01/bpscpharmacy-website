@@ -46,8 +46,8 @@ const ContactPreview = () => {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="h-12 w-12 rounded-xl bg-blue-100 flex items-center justify-center">
-                  <FaPhoneAlt className="text-blue-600" />
+                <div className="h-12 w-12 border border-blue-300 rounded-xl bg-blue-100 flex items-center justify-center">
+                  <FaPhoneAlt size={25} className="text-blue-600" />
                 </div>
 
                 <div>
@@ -59,8 +59,8 @@ const ContactPreview = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="h-12 w-12 rounded-xl bg-red-100 flex items-center justify-center">
-                  <MdEmail className="text-red-600 text-xl" />
+                <div className="h-12 w-12 border border-red-300 rounded-xl bg-red-100 flex items-center justify-center">
+                  <MdEmail size={25} className="text-red-600 text-xl" />
                 </div>
 
                 <div>
@@ -70,15 +70,15 @@ const ContactPreview = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="h-12 w-12 rounded-xl bg-green-100 flex items-center justify-center">
-                  <FaMapMarkerAlt className="text-green-600" />
+                <div className="h-12 w-12 border border-green-300 rounded-xl bg-green-100 flex items-center justify-center">
+                  <FaMapMarkerAlt size={25} className="text-green-600" />
                 </div>
 
                 <div>
                   <h4 className="font-semibold">College Address</h4>
                   <p className="text-slate-600">
-                    Baijnath Prasad Snehi College of Pharmacy, Domchanch,
-                    Koderma, Jharkhand (825418)
+                    Baijnath Prasad Snehi College of Pharmacy, Domchanch <br />
+                    <span>Koderma, Jharkhand (825418)</span>
                   </p>
                 </div>
               </div>
