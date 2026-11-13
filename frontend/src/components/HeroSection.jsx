@@ -1,6 +1,24 @@
 import { FaArrowRight, FaUserGraduate } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+const AnimatedText = ({ text, className = "", delay = 0 }) => {
+  return (
+    <span className={className}>
+      {text.split("").map((char, index) => (
+        <span
+          key={index}
+          className="inline-block animate-letter"
+          style={{
+            animationDelay: `${delay + index * 0.05}s`,
+          }}
+        >
+          {char === " " ? "\u00A0" : char}
+        </span>
+      ))}
+    </span>
+  );
+};
+
 const HeroSection = () => {
   return (
     <section className="relative min-h-[84vh] flex items-center overflow-hidden">
@@ -13,7 +31,7 @@ const HeroSection = () => {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/60" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-2 lg:px-8 w-full">
@@ -26,8 +44,11 @@ const HeroSection = () => {
 
           {/* Heading */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-4 leading-tight">
-            Shape Your Future With
-            <span className="block text-emerald-400">D.Pharma Education</span>
+            <AnimatedText text="Shape Your Future With" />
+
+            <span className="block text-blue-500">
+              <AnimatedText text="D.Pharma Education" delay={1.5} />
+            </span>
           </h1>
 
           {/* Description */}

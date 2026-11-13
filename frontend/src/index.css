@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@keyframes letterReveal {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+
+  2%,
+  85% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+}
+
+.animate-letter {
+  opacity: 0;
+  animation: letterReveal 5s ease-in-out infinite;
+}
