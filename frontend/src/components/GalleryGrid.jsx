@@ -22,7 +22,8 @@ const GalleryGrid = ({ images = [] }) => {
           >
             <img
               src={image}
-              alt={`Gallery ${index + 1}`}
+              alt="D.Pharm students at BPSC College of Pharmacy, Koderma"
+              loading="lazy"
               className="w-full h-64 object-cover transition duration-500 group-hover:scale-110"
             />
 

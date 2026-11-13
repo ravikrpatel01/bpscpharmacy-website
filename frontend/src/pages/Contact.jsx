@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet-async";
+
 import ContactForm from "../components/ContactForm";
 import ContactInfo from "../components/ContactInfo";
 import Footer from "../components/Footer";
@@ -7,10 +9,72 @@ import PageBanner from "../components/PageBanner";
 import TopBar from "../components/TopBar";
 
 const Contact = () => {
+  const websiteUrl = "https://bpscollegeofpharmacy.org";
+
   return (
     <>
+      <Helmet>
+        {/* Basic SEO */}
+        <title>
+          Contact BPSC College of Pharmacy | Domchanch, Koderma, Jharkhand
+        </title>
+
+        <meta
+          name="description"
+          content="Contact Baijnath Prasad Snehi College of Pharmacy, Domchanch, Koderma, Jharkhand for D.Pharm admission, course details, fee structure and other inquiries. Find our campus location and get in touch with us."
+        />
+
+        <meta
+          name="keywords"
+          content="BPSC College of Pharmacy Contact, Pharmacy College in Domchanch, D.Pharm College Koderma Contact, Pharmacy College Jharkhand Address, D.Pharm Admission Inquiry Koderma, Baijnath Prasad Snehi College of Pharmacy"
+        />
+
+        <meta name="author" content="BPSC College of Pharmacy" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href={`${websiteUrl}/contact`} />
+
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content="Contact Us | BPSC College of Pharmacy, Koderma"
+        />
+
+        <meta
+          property="og:description"
+          content="Get in touch with BPSC College of Pharmacy, Domchanch, Koderma, Jharkhand for admission inquiries, D.Pharm course details and campus information."
+        />
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:url" content={`${websiteUrl}/contact`} />
+
+        <meta property="og:site_name" content="BPSC College of Pharmacy" />
+
+        <meta property="og:image" content={`${websiteUrl}/og-image.jpg`} />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content="Contact BPSC College of Pharmacy" />
+
+        <meta
+          name="twitter:description"
+          content="Contact our college for D.Pharm admissions, fees, course details and other inquiries in Koderma, Jharkhand."
+        />
+
+        <meta name="twitter:image" content={`${websiteUrl}/og-image.jpg`} />
+
+        {/* Local SEO */}
+        <meta name="geo.region" content="IN-JH" />
+        <meta name="geo.placename" content="Domchanch, Koderma, Jharkhand" />
+      </Helmet>
+
       <TopBar />
       <Navbar />
+
       <PageBanner
         title="Contact Us"
         subtitle="Get in touch with us for admissions, course details, fee structure, and other inquiries."
@@ -21,7 +85,6 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <ContactInfo />
-
             <ContactForm />
           </div>
         </div>
@@ -44,9 +107,10 @@ const Contact = () => {
             </p>
           </div>
 
-          <GoogleMap location="Baijnath Prasad Snehi College of Pharmacy, Patna, Bihar" />
+          <GoogleMap location="Baijnath Prasad Snehi College of Pharmacy, Domchanch, Koderma, Jharkhand" />
         </div>
       </section>
+
       <Footer />
     </>
   );
